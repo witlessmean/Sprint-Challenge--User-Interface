@@ -66,9 +66,23 @@ p {
     line-height: 1.4;
 }
 
+a { text-decoration: none;
+    color: black;}
+
+.headerContainer { 
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.heroContainer {
+    width: 800px;
+    margin: 20px auto;
+}
+
 .container {
     width: 800px;
-    margin: 0 auto;
+    margin: 0 auto; 
 }
 
 .top-content {
@@ -104,7 +118,7 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -126,6 +140,49 @@ p {
     padding-right: 0;
 }
 
+.box1 {
+    background: teal;
+}
+
+.box2 { 
+    background: gold;
+}
+
+.box3 {
+    background: cadetblue;
+}
+
+.box4 {
+    background: coral;
+}
+
+.box5 { 
+    background: crimson;
+}
+
+.box6 {
+    background: forestgreen;
+}
+
+.box7 { 
+    background: darkorchid;
+}
+
+.box8 {
+    background: hotpink;
+}
+
+.box9 {
+    background: indigo;
+}
+
+.box10 {
+    background: dodgerblue;
+}
+
+
+
+
 footer {
     width: 100%;
     background: black;
@@ -143,4 +200,39 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+
+
+
+
+
+
+/* about-page focus section */
+
+.learnMore {
+    border-radius: 8px;
+    border: 1px solid black;
+    text-align: center;
+    width: 30%;
+    height: 5%
+    
+}
+
+.newMiddleContent {
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    padding-bottom: 20px;
+}
+
+.container , .about-page {
+    
+}
+
+.flexer {
+    display: flex;
+    justify-content: 
+    
+    
 }
